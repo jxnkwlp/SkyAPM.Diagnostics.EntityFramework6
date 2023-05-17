@@ -1,0 +1,7 @@
+﻿<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+	<entityFramework xdt:Transform="InsertIfMissing">
+		<interceptors xdt:Transform="InsertIfMissing">
+			<interceptor type="SkyAPM.Diagnostics.EntityFramework.EntityFrameworkInterceptor, SkyAPM.Diagnostics.EntityFramework" xdt:Transform="InsertIfMissing" xdt:Locator="Match(type)" />
+		</interceptors>
+	</entityFramework>
+</configuration>
